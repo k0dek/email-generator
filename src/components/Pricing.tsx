@@ -25,7 +25,7 @@ export function Pricing() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Free Tier */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 relative border border-gray-100">
+          <div className="bg-white rounded-[35px] shadow-lg p-8 relative border border-gray-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Free</h3>
             <p className="text-gray-600 mb-6">Perfect for getting started</p>
             <div className="flex items-baseline mb-8">
@@ -52,18 +52,15 @@ export function Pricing() {
             </ul>
             <button 
               onClick={() => handleButtonClick('free')}
-              className="w-full py-3 px-6 rounded-lg bg-white text-indigo-600 font-semibold border-2 border-indigo-600 hover:bg-indigo-50 transition duration-150"
+              className="w-full py-3 px-6 rounded-[18px] bg-white text-indigo-600 font-semibold border-2 border-indigo-600 hover:bg-indigo-50 transition duration-150"
             >
               Get Started
             </button>
           </div>
 
           {/* Enterprise Tier */}
-          <div className="bg-indigo-600 rounded-2xl shadow-lg p-8 relative text-white">
+          <div className="bg-indigo-600 rounded-[35px] shadow-lg p-8 relative text-white">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <span className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-4 py-1 rounded-full text-sm font-medium">
-                Most Popular
-              </span>
             </div>
             <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
             <p className="text-indigo-200 mb-6">For teams and businesses</p>
@@ -90,7 +87,7 @@ export function Pricing() {
             </ul>
             <button 
               onClick={() => handleButtonClick('enterprise')}
-              className="w-full py-3 px-6 rounded-lg bg-white text-indigo-600 font-semibold hover:bg-gray-50 transition duration-150"
+              className="w-full rounded-[18px] py-3 px-6 rounded-lg bg-white text-indigo-600 font-semibold hover:bg-gray-50 transition duration-150"
             >
               Contact Sales
             </button>
