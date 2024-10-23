@@ -35,7 +35,7 @@ export function Generator() {
             <textarea
               id="prompt"
               rows={6}
-              className="w-full resize-none px-4 py-3 rounded-[20px] rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+              className="w-full resize-none px-4 py-3 rounded-[20px] border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
               placeholder="Describe the email you want to generate..."
               value={prompt}
               onChange={(e) => setPrompt(e.target.value)}
@@ -43,7 +43,7 @@ export function Generator() {
           </div>
           <button
             onClick={handleGenerate}
-            className="w-full rounded-[18px] flex items-center justify-center space-x-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-150"
+            className="w-full rounded-[18px] flex items-center justify-center space-x-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 transition duration-150"
           >
             <Wand2 className="h-5 w-5" />
             <span>Generate HTML</span>
