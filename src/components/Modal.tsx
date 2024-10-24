@@ -40,7 +40,7 @@ export function Modal({ isOpen, onClose, onSubmit, title, description, type = 'g
   if (showError) {
     return (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <div className="bg-white rounded-xl p-6 w-full max-w-md">
+        <div className="bg-white rounded-[35px] p-6 w-full max-w-md">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
             Error
           </h3>
@@ -49,7 +49,7 @@ export function Modal({ isOpen, onClose, onSubmit, title, description, type = 'g
           </p>
           <button
             onClick={onClose}
-            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-150"
+            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-[18px] transition duration-150"
           >
             OK
           </button>
@@ -61,7 +61,7 @@ export function Modal({ isOpen, onClose, onSubmit, title, description, type = 'g
   if (showSuccess) {
     return (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <div className="bg-white rounded-xl p-6 w-full max-w-md">
+        <div className="bg-white rounded-[35px] p-6 w-full max-w-md">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
             Success!
           </h3>
@@ -70,7 +70,7 @@ export function Modal({ isOpen, onClose, onSubmit, title, description, type = 'g
           </p>
           <button
             onClick={onClose}
-            className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition duration-150"
+            className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-[18px] transition duration-150"
           >
             Close
           </button>
@@ -81,7 +81,7 @@ export function Modal({ isOpen, onClose, onSubmit, title, description, type = 'g
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-xl p-6 w-full max-w-md relative">
+      <div className="bg-white rounded-[35px] p-6 w-full max-w-md relative">
         <button
           onClick={onClose}
           className="absolute right-4 top-4 text-gray-400 hover:text-gray-600 transition-colors"
@@ -107,7 +107,7 @@ export function Modal({ isOpen, onClose, onSubmit, title, description, type = 'g
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+              className="w-full px-4 py-3 rounded-[18px] border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
               placeholder="you@example.com"
               required
             />
@@ -120,7 +120,7 @@ export function Modal({ isOpen, onClose, onSubmit, title, description, type = 'g
           
           <button
             type="submit"
-            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-150"
+            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-[18px] transition duration-150"
           >
             Continue
           </button>
