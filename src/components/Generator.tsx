@@ -29,7 +29,7 @@ export function Generator() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-white rounded-[35px] shadow-md p-6 pt-[25px]">
           <div className="mb-4">
-            <label htmlFor="prompt" className="block ml-[15px] text-[20px] font-bold text-gray-700 mb-[15px]">
+            <label htmlFor="prompt" className="block ml-[15px] text-[20px] font-bold text-gray-900 mb-[15px]">
               Describe your email
             </label>
             <textarea
