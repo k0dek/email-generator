@@ -13,7 +13,7 @@ export function HowItWorks() {
                 {/* Video Section */}
                 <div className="mb-20">
                     <div className="rounded-2xl h-fill w-fill overflow-hidden aspect-video bg-gray-100">
-                        <iframe src="/video/demo.mp4" title="Product Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="w-full h-full"></iframe>
+                        <iframe src="/video/demo.mp4" title="Product Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{ backgroundColor: "transparent" }} allowFullScreen className="w-full bg-white h-full"></iframe>
                     </div>
                 </div>
 
