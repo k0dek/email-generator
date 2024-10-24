@@ -3,15 +3,16 @@ import { Mail } from 'lucide-react';
 
 export function Navbar() {
   return (
-    <nav className="bg-white shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <header className='w-full flex justify-center sticky top-[15px] z-10'>
+      <nav className="bg-white shadow-xl max-w-7xl w-full mx-auto rounded-[20px]  mx-[15px]">
+      <div className="px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Mail className="h-6 w-6 text-indigo-600" />
-            <span className="text-xl font-bold text-gray-900">Email HTML Generator AI</span>
+            <img className='h-[35px] w-auto' src="/logo.svg" alt="Logo" />
           </div>
         </div>
       </div>
     </nav>
+    </header>
   );
 }

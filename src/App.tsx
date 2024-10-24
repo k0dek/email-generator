@@ -8,7 +8,7 @@ import { Footer } from './components/Footer';
 
 export function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+    <div className="min-h-screen pt-[30px] bg-gradient-to-br from-indigo-50 via-white to-purple-50">
       <Navbar />
 
       <main>
