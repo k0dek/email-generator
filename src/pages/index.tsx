@@ -1,3 +1,4 @@
+// src/pages/index.tsx
 import React from "react";
 import { Navbar } from "../components/Navbar";
 import { Generator } from "../components/Generator";
